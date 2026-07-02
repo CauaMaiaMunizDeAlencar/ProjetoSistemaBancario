@@ -1,6 +1,6 @@
 from db import conectar
 
-def sacar(conta_id, valor):
+def sacar(conta_id, valor): #Define função sacar.
     conn = conectar()
     cursor = conn.cursor()
 
@@ -25,7 +25,7 @@ def sacar(conta_id, valor):
     finally:
         conn.close()
 
-def ver_saldo(conta_id):
+def ver_saldo(conta_id): #Define função ver saldo.
     conn = conectar()
     cursor = conn.cursor()
 
@@ -44,7 +44,7 @@ def ver_saldo(conta_id):
     finally:
         conn.close()
 
-def depositar(conta_id, valor):
+def depositar(conta_id, valor): #Define função depositar.
     conn = conectar()
     cursor = conn.cursor()
 
@@ -83,7 +83,7 @@ def depositar(conta_id, valor):
     from db import conectar
 
 
-def transferir(conta_origem, conta_destino, valor):
+def transferir(conta_origem, conta_destino, valor): #Define função transferir.
     conn = conectar()
     cursor = conn.cursor()
 
