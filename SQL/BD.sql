@@ -8,7 +8,7 @@ CREATE TABLE contas (
     saldo DECIMAL(10,2)
 );
 
-INSERT INTO contas (nome, saldo)
+INSERT INTO contas (nome, saldo) -- Podem ser inseridas diversas contas.
 VALUES
 ('SEU_NOME_EXEMPLO1',1000),
 ('SEU_NOME_EXEMPLO2',1000);
