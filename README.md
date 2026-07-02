@@ -18,7 +18,7 @@
 - Realizar saques
 - Transferência de valores entre contas
 - Teste de concorrência
-- Uso de commit e rollback para melhor controle de transações
+- Uso de commit para melhor controle de transações
 - Bloqueio de registros
 - Tratamento de exceções
 
