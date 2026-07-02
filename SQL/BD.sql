@@ -1,6 +1,6 @@
-CREATE DATABASE sistema_projetofinalBD2;
+CREATE DATABASE ProjetoBancario;
 
-USE sistema_projetofinalBD2;
+USE ProjetoBancario;
 
 CREATE TABLE contas (
     id INT AUTO_INCREMENT PRIMARY KEY,
