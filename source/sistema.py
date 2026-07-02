@@ -1,4 +1,4 @@
-from db import conectar
+from database import conectar
 
 def sacar(conta_id, valor): #Define função sacar.
     conn = conectar()
