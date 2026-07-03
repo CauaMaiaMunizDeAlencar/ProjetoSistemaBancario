@@ -80,9 +80,6 @@ def depositar(conta_id, valor): #Define função depositar.
     finally:
         conn.close()
 
-    from db import conectar
-
-
 def transferir(conta_origem, conta_destino, valor): #Define função transferir.
     conn = conectar()
     cursor = conn.cursor()
